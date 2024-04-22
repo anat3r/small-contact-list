@@ -48,13 +48,13 @@ export default function Contact() {
           <Favorite contact={contact} />
         </h1>
 
-        {contact.twitter && (
+        {contact.telegram && (
           <p>
             <a
               target="_blank"
-              href={`https://twitter.com/${contact.twitter}`}
+              href={`https://t.me/${contact.telegram}`}
             >
-              {contact.twitter}
+              {contact.telegram}
             </a>
           </p>
         )}
