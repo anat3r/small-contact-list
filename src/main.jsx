@@ -31,7 +31,7 @@ import Index from "./routes/index"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-router-learn/",
     element: <Root />,
     loader: rootLoader,
     action: rootAction,
