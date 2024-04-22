@@ -80,7 +80,7 @@ export default function Root() {
               {contacts.map((contact) => (
                 <li key={contact.id}>
                   <NavLink
-                    to={`contacts/${contact.id}`}
+                    to={`/react-router-learn/contacts/${contact.id}`}
                     className={({ isActive, isPending }) =>
                       isActive
                         ? "active"

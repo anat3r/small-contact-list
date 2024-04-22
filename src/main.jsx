@@ -41,19 +41,19 @@ const router = createBrowserRouter([
       children: [
         { index: true, element: <Index /> },
         {
-          path: "contacts/:contactId",
+          path: "/react-router-learn/contacts/:contactId",
           element: <Contact />,
           loader: contactLoader,
           action: contactAction,
         },
         {
-          path: "contacts/:contactId/edit",
+          path: "/react-router-learn/contacts/:contactId/edit",
           element: <EditContact />,
           loader: contactLoader,
           action: editAction,
         },
         {
-          path: "contacts/:contactId/destroy",
+          path: "/react-router-learn/contacts/:contactId/destroy",
           action: destroyAction,
           errorElement: <ErrorPage />,
         },
