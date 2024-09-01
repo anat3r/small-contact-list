@@ -114,7 +114,7 @@ form[action$="destroy"] button {
 #sidebar {
   width: 22rem;
   background-color: rgb(30 41 59);
-  border-right: solid 1px rgb(30 41 59);
+  border-right: solid 1px rgb(2 6 23);
   display: flex;
   flex-direction: column;
 }
@@ -131,7 +131,7 @@ form[action$="destroy"] button {
   align-items: center;
   margin: 0;
   padding: 1rem 2rem;
-  border-top: 1px solid #e3e3e3;
+  border-top: 1px solid rgb(2 6 23);
   order: 1;
   line-height: 1;
 }
@@ -142,7 +142,7 @@ form[action$="destroy"] button {
   gap: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid rgb(2 6 23);
 }
 
 #sidebar>div form {
@@ -347,6 +347,7 @@ i {
   height: 12rem;
   background: hsla(0, 0%, 0%, 0.2);
   border-radius: 1rem;
+  border-color: rgb(2 6 23);
 }
 
 #contact-form-avatar input {
