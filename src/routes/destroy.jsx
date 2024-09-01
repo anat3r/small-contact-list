@@ -3,5 +3,5 @@ import { deleteContact } from "../contacts";
 
 export async function action({ params }) {
   await deleteContact(params.contactId);
-  return redirect("/react-router-learn/");
+  return redirect("/small-contact-list//");
 }
