@@ -12,7 +12,7 @@ import { getContacts, createContact } from "../contacts";
 
 export async function action() {
   const contact = await createContact();
-  return redirect(`/small-contact-list//contacts/${contact.id}/edit`);
+  return redirect(`/small-contact-list/contacts/${contact.id}/edit`);
 }
 
 export async function loader({ request }) {
@@ -80,7 +80,7 @@ export default function Root() {
               {contacts.map((contact) => (
                 <li key={contact.id}>
                   <NavLink
-                    to={`/small-contact-list//contacts/${contact.id}`}
+                    to={`/small-contact-list/contacts/${contact.id}`}
                     className={({ isActive, isPending }) =>
                       isActive
                         ? "active"

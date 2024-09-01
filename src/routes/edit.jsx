@@ -10,7 +10,7 @@ export async function action({ request, params }) {
   const formData = await request.formData();
   const updates = Object.fromEntries(formData);
   await updateContact(params.contactId, updates);
-  return redirect(`/small-contact-list//contacts/${params.contactId}`);
+  return redirect(`/small-contact-list/contacts/${params.contactId}`);
 }
 export default function EditContact() {
   const { contact } = useLoaderData();

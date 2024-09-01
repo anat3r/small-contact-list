@@ -3,5 +3,5 @@ import { deleteContact } from "../contacts";
 
 export async function action({ params }) {
   await deleteContact(params.contactId);
-  return redirect("/small-contact-list//");
+  return redirect("/small-contact-list/");
 }
