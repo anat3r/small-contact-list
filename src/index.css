@@ -39,14 +39,14 @@ button {
   border-radius: 8px;
   padding: 0.5rem 0.75rem;
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
-  background-color: rgb(15 23 42);
+  background-color: rgb(31 41 55);
   line-height: 1.5;
   margin: 0;
 }
 
 button {
   color: rgb(14 116 144);
-  background-color: rgb(30 41 59);
+  background-color: rgb(31 41 55);
   font-weight: 500;
 }
 
@@ -113,8 +113,8 @@ form[action$="destroy"] button {
 
 #sidebar {
   width: 22rem;
-  background-color: #f7f7f7;
-  border-right: solid 1px #e3e3e3;
+  background-color: rgb(30 41 59);
+  border-right: solid 1px rgb(30 41 59);
   display: flex;
   flex-direction: column;
 }
