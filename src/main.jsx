@@ -31,7 +31,7 @@ import Index from "./routes/index"
 
 const router = createBrowserRouter([
   {
-    path: "/react-router-learn/",
+    path: "/small-contact-list/",
     element: <Root />,
     loader: rootLoader,
     action: rootAction,
@@ -41,19 +41,19 @@ const router = createBrowserRouter([
       children: [
         { index: true, element: <Index /> },
         {
-          path: "/react-router-learn/contacts/:contactId",
+          path: "/small-contact-list/contacts/:contactId",
           element: <Contact />,
           loader: contactLoader,
           action: contactAction,
         },
         {
-          path: "/react-router-learn/contacts/:contactId/edit",
+          path: "/small-contact-list/contacts/:contactId/edit",
           element: <EditContact />,
           loader: contactLoader,
           action: editAction,
         },
         {
-          path: "/react-router-learn/contacts/:contactId/destroy",
+          path: "/small-contact-list/contacts/:contactId/destroy",
           action: destroyAction,
           errorElement: <ErrorPage />,
         },
